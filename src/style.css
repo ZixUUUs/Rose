@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap");
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a,
+a:visited {
+  outline: none;
+}
+li {
+  list-style: none;
+}
+section {
+  display: flex;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.contain img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
